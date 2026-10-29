@@ -1,0 +1,6 @@
+{
+  "name": "CDPD RA3 Vanguard · Integración de Tecnologías Digitales",
+  "description": "Plataforma educativa vanguardista de competencia digital docente con modelo TPACK, planificación didáctica, entorno orbital 3D y evaluación interactiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
