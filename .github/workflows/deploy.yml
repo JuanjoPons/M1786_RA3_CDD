@@ -27,7 +27,7 @@ jobs:
           mkdir -p public/src/assets
           cp -r src/assets/images public/src/assets/
           sed -i "s#'/src/assets/images/#import.meta.env.BASE_URL + 'src/assets/images/#g" src/components/*.tsx
-      - run: npm install
+      - run: npm install --legacy-peer-deps
       - run: npx vite build --base=/${{ github.event.repository.name }}/
       - uses: actions/upload-pages-artifact@v3
         with:
